@@ -6,3 +6,7 @@ This is a strict development from [qhan1028/Headpose_Detection](https://github.c
 LEDControl.py offers a visual feedback through connected leds to the RPi, allowing for quick visualization of the system's output. 
 
 For more on this project visit my website. 
+
+## Usage
+
+Run `python3 headpose_video.py` certain arguements are available. A webcame must be connected.

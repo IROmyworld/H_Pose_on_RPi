@@ -1,2 +1,2 @@
 # H_Pose_on_RPi
-Headpose Detection on RPi
+Headpose Estimation Optimazation for RPi

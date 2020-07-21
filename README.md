@@ -9,4 +9,4 @@ For more on this project visit my website.
 
 ## Usage
 
-Run `python3 headpose_video.py` certain arguements are available. A webcame must be connected.
+Run `python3 headpose_video.py` certain arguements are available. A webcam must be connected.

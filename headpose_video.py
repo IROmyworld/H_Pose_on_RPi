@@ -5,7 +5,7 @@
 #
 
 from __future__ import print_function
-from imutils.video import WebcamVideoStream
+from imutils.video import PiVideoStream
 import argparse
 import cv2
 import LEDControl as LED
@@ -15,7 +15,7 @@ import headpose
 def main(args):
     
     # Initiate Webcam Stream
-    cap = WebcamVideoStream(src=0).start()
+    cap = PiVideoStream(src=0).start()
 
     # Initialize head pose detection
     hpe = headpose.HeadposeEstimation(args["landmark_type"], args["landmark_predictor"])
